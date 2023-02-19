@@ -1,0 +1,17 @@
+{
+  "name": "cspray/phpunit10-bugs",
+  "description": "A repo meant to isolate problems with PHPUnit 10 events in isolation",
+  "require": {
+    "phpunit/phpunit": "^10.0"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cspray\\PHPUnit10Bugs\\PreparationStartedException\\": "PreparationStartedException/src",
+      "Cspray\\PHPUnit10Bugs\\PreprationStartedException\\Tests\\": "PreparationStartedException/tests"
+    }
+  }
+}
