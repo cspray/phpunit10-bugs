@@ -12,6 +12,12 @@ install this repo by cloning directly to your local machine.
 git clone git@github.com:cspray/phpunit10-bugs.git
 ```
 
+Be sure to install dependencies before running:
+
+```
+cd phpunit10-bugs && composer install
+```
+
 ## How to Use This Repo
 
 This repo is meant to showcase specific, isolated bugs. Each directory represents a different scenario that causes a 
